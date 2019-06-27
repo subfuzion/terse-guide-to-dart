@@ -12,7 +12,7 @@ This documentation can be viewed locally or you can host it online. The generate
 
 ## Doc comments
 
-The comments that dartdoc processes are called [doc comments](https://dart.dev/guides/language/effective-dart/documentation#doc-comments). These are comments that appear before declarations and use three slashes \(`///`\) instead of two for normal comments in Dart code.
+The comments that dartdoc processes are called [doc comments](https://dart.dev/guides/language/effective-dart/documentation#doc-comments). These are comments that appear before declarations and use three slashes \(`///`\) instead of the normal two for comments in Dart code.
 
 Prefer writing doc comments for public APIs and consider writing library-level comments \(just before the `library` directive\). See [Effective Dart: Documentation](https://dart.dev/guides/language/effective-dart/documentation) for more guidance.
 
