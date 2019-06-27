@@ -6,6 +6,8 @@ description: Kick start your Dart package development generated boilerplate
 
 ## Using Stagehand to generate boilerplate
 
+The previous sections described conventional package layout. Rather than create the structure and boilerplate manually, you use a generator to scaffold a starter package for you.
+
 [Stagehand](https://pub.dev/packages/stagehand) is a Dart project generator for scaffolding application, web, and library packages with conventional boilerplate.
 
 ### Install Stagehand

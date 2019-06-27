@@ -2,13 +2,14 @@
 
 * [Introduction](README.md)
 
-## Package Layout
+## Standard package Layout
 
-* [Application package layout](package-layout/general-package-layout.md)
-* [Web package layout](package-layout/web-package-layout.md)
-* [Library package layout](package-layout/library-package-layout.md)
-* [Scaffold a Dart package](package-layout/scaffold-a-dart-package.md)
-* [Sample .gitignore](package-layout/sample-.gitignore.md)
+* [Application package layout](standard-package-layout/general-package-layout.md)
+* [Web package layout](standard-package-layout/web-package-layout.md)
+* [Library package layout](standard-package-layout/library-package-layout.md)
+* [Scaffold a Dart package](standard-package-layout/scaffold-a-dart-package.md)
+* [Sample .gitignore](standard-package-layout/sample-.gitignore.md)
+* [The pubspec](standard-package-layout/the-pubspec.md)
 
 ## Package Documentation
 
