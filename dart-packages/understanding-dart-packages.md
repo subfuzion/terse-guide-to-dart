@@ -2,9 +2,9 @@
 description: What is a Dart package?
 ---
 
-# Overview
+# Understanding Dart Packages
 
-## Understanding Dart packages
+## The pubspec
 
 The fundamental unit for sharing software, such as libraries and applications, within the Dart ecosystem is a _package_.
 
@@ -17,14 +17,15 @@ For personal packages, the only required field is `name`. For packages you inten
 * **description** - brief, plain text description of the package.
 * **environment** - SDK [version constraint](https://dart.dev/tools/pub/dependencies#version-constraints).
 
-If you use Stagehand \(discussed [here](../standard-package-layout/scaffold-a-dart-package.md)\) to scaffold a package, a pubspec with these fields will be created for you.
+If you use Stagehand \(discussed [here](../standard-package-layout/scaffold-a-dart-package.md)\) to scaffold a package, a pubspec with various fields will be created for you.
 
 ### Package dependencies
 
 In addition to providing information that helps others to discover your package, the pubspec also identifies your package's dependencies on other packages and the required version of the Dart runtime environment for your package.
 
-* dependencies
-* dev-dependencies
+* **dependencies**
+* **dev-dependencies**
+* **dependency\_overrides**
 
 Because packages are not published with their dependencies, these dependencies need to be identified in the their pubspec files so that they can be fetched later.
 

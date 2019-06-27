@@ -12,7 +12,9 @@ foo/
   README.md
   CHANGELOG.md
   pubspec.yaml
-  pubspec.lock *
+  pubspec.lock
+  bin/
+    server.dart
   lib/
     src/
   tool/
