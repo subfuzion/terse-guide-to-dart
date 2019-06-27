@@ -56,22 +56,14 @@ For publishing to the [Pub site](https://pub.dev/), all uploaders must have a Gm
 
 ## Resources
 
-[Dart packages on Pub](https://pub.dev/)
-
-[How to use packages](https://dart.dev/guides/packages)
-
-[Publishing packages](https://dart.dev/tools/pub/publishing)
-
-[pub get](https://dart.dev/tools/pub/cmd/pub-get)
-
-[pub publish](https://dart.dev/tools/pub/cmd/pub-lish)
-
-[pub run](https://dart.dev/tools/pub/cmd/pub-run)
-
-[pub uploader](https://dart.dev/tools/pub/cmd/pub-uploader)
-
-[pub upgrade](https://dart.dev/tools/pub/cmd/pub-upgrade)
-
+[Dart packages on Pub](https://pub.dev/)  
+[How to use packages](https://dart.dev/guides/packages)  
+[Publishing packages](https://dart.dev/tools/pub/publishing)  
+[pub get](https://dart.dev/tools/pub/cmd/pub-get)  
+[pub publish](https://dart.dev/tools/pub/cmd/pub-lish)  
+[pub run](https://dart.dev/tools/pub/cmd/pub-run)  
+[pub uploader](https://dart.dev/tools/pub/cmd/pub-uploader)  
+[pub upgrade](https://dart.dev/tools/pub/cmd/pub-upgrade)  
 [The pubspec file](https://dart.dev/tools/pub/pubspec)
 
 
