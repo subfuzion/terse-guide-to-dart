@@ -1,3 +1,7 @@
+---
+description: For web applications
+---
+
 # Web package layout
 
 ## A sample web [application package](https://dart.dev/tools/pub/glossary#application-package)

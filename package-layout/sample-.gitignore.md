@@ -1,3 +1,7 @@
+---
+description: A basic .gitignore file for Dart packages using git for version control
+---
+
 # Sample .gitignore
 
 ## A basic .gitignore file.

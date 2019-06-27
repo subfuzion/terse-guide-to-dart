@@ -1,5 +1,5 @@
 ---
-description: Command-line apps and tools.
+description: For command-line apps and tools
 ---
 
 # Application package layout

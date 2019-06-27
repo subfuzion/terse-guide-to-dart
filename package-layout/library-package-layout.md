@@ -1,3 +1,7 @@
+---
+description: For packages that will be imported by other packages
+---
+
 # Library package layout
 
 ## A sample [library package](https://dart.dev/tools/pub/glossary#library-package)

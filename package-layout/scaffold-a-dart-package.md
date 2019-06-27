@@ -1,3 +1,7 @@
+---
+description: Kick start your Dart package development generated boilerplate
+---
+
 # Scaffold a Dart package
 
 ## Using Stagehand to generate boilerplate
