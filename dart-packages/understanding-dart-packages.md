@@ -8,7 +8,7 @@ description: What is a Dart package?
 
 The fundamental unit for sharing software, such as libraries and applications, within the Dart ecosystem is a _package_.
 
-A package is a directory contains that as a minimum at least a [pubspec file](https://dart.dev/tools/pub/pubspec), which contains metadata about the package. The pubspec is a named pubspec.yaml that's written in [YAML](http://www.yaml.org/).
+A package is a directory contains that as a minimum at least a [pubspec file](https://dart.dev/tools/pub/pubspec), which contains metadata about the package. The pubspec is a named `pubspec.yaml` that's written in [YAML](http://www.yaml.org/).
 
 For personal packages, the only required field is `name`. For packages you intend to share with the world by publishing to the Pub site, you will also need to provide `version`, `description`, and `environment` fields.
 
