@@ -13,11 +13,10 @@
 * [Library package layout](standard-package-layout/library-package-layout.md)
 * [Scaffold a Dart package](standard-package-layout/scaffold-a-dart-package.md)
 * [Sample .gitignore](standard-package-layout/sample-.gitignore.md)
-* [The pubspec](standard-package-layout/the-pubspec.md)
 
 ## Package Documentation
 
-* [Untitled](package-documentation/untitled.md)
+* [The dartdoc tool](package-documentation/untitled.md)
 
 ## Package Tests
 
