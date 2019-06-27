@@ -35,6 +35,10 @@ For an **application**, run either the generated test \(`pub run test`\) or the 
 
 For a **web app**, make sure you have installed webdev first for serving Dart web apps during development \(`pub global activate webdev`\). Then run `webdev serve`. Finally, open a web browser and navigate to `http://localhost:8080`.
 
+{% hint style="info" %}
+You don't have to provide the `.dart` extension for files that you run with `pub run`.
+{% endhint %}
+
 ## References
 
 [Stagehand](https://pub.dev/packages/stagehand)
