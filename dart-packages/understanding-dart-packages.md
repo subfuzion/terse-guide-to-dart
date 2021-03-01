@@ -24,30 +24,30 @@ If you use Stagehand \(discussed [here](../standard-package-layout/scaffold-a-da
 In addition to providing information that helps others to discover your package, the pubspec also identifies your package's dependencies on other packages and the required version of the Dart runtime environment for your package.
 
 * **dependencies**
-* **dev-dependencies**
+* **dev\_dependencies**
 * **dependency\_overrides**
 
-Because packages are not published with their dependencies, these dependencies need to be identified in the their pubspec files so that they can be fetched later.
+Because packages are not published with their dependencies, these dependencies need to be identified in the pubspec. These dependencies are fetched separately using either `dart pub get` or `dart pub upgrade`.
 
-### pub get
+### dart pub get
 
-When you run `pub get` in your own package directory, the `pub` tool will inspect your `dependencies` and `dev-dependencies` fields and fetch all the packages your package requires, installing them in a central [system cache](https://dart.dev/tools/pub/glossary#system-cache). It will also create a `.packages` file in your package's top directory that maps each of your package dependencies to the corresponding package in the system cache.
+When you run `dart pub get` in your own package directory, the command will inspect your `dependencies` and `dev-dependencies` fields and fetch all the packages your package requires, installing them in a central [system cache](https://dart.dev/tools/pub/glossary#system-cache). It will also create a `.packages` file in your package's top directory that maps each of your package dependencies to the corresponding package in the system cache.
 
-### pub upgrade
+### dart pub upgrade
 
 Use the pub upgrade command to fetch the latest versions of all dependencies, including [transitive dependencies](https://dart.dev/tools/pub/glossary#transitive-dependency), by ignoring `pubspec.lock`. This command will write \(or overwrite an existing\) `pubspec.lock;` this lockfile should be checked into version control for application packages.
 
-### pub run
+### dart pub run
 
-After running `pub get` to fetch all of your package dependencies, you can run `pub run <path>/<to>/<file>.dart`, where path should be `bin`, `example`, or `tool`. Note that specifying the `.dart` extension isn't necessary.
+After running `dart pub get` to fetch all of your package dependencies, you can run `pub run <path>/<to>/<file>.dart`, where path should be `bin`, `example`, or `tool`. Note that specifying the `.dart` extension isn't necessary.
 
 If the file under `bin` has the same name as the package, then you don't need to specify the path, but you do need to specify the extension. For example, for package `foo`, this will work: `pub run foo.dart`.
 
-### pub publish
+### dart pub publish
 
-When you are ready to share a package with the rest of the world, use the `pub publish`.
+When you are ready to share a package with the rest of the world, use the `dart pub publish`.
 
-The first person to publish a package becomes the only person who can publish new versions of that package. To add or remove other people who can publish updates, use the `pub uploader` command.
+The first person to publish a package becomes the only person who can publish new versions of that package. To add or remove other people who can publish updates, use the `dart pub uploader` command.
 
 The default is to publish to the Pub site. The `publish_to` field in the pubspec can be used to specify a custom server or to specify `none` to prevent accidental publishing of private packages.
 
